@@ -2,7 +2,7 @@ const dashBoardLoader = (req,res)=>{
 
   if(req.session.userInfo.type=="Admin")
   {
-      res.render("adminDashBoard");
+      res.render("adminDashboard");
   }
   
   else
